@@ -187,3 +187,12 @@ header .menu{
         transform: translate(-50%, -50%);
         font-size: 18px;
     }
+    .advanced-filters{
+        margin: 0px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-align: center;
+        align-items: center;
+        padding-left: 0rem;
+    }
