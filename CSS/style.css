@@ -183,6 +183,13 @@ header .menu{
         text-align: left;
       }
       
+      h7 {
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+        font-size: 0.5rem;
+        text-align: left;
+      }
     .wrapper{
         position: absolute;
         top: 50%;
@@ -233,8 +240,8 @@ header .menu{
     .K2-grid {
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 80px;
+        padding-right: 80px;
         text-align: left;
         background-color: #FFFFFF;
     }
@@ -465,8 +472,29 @@ header .menu{
       .clmtxt {
         padding: 80px;
       }
+      
       .learn {
+        background-color: #FFFF;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
       }
+      .learn {
+        background-color: white;
+        color: black;
+        border: 2px solid #000000;
+      }
+      .learn:hover {
+        background-color: #000000;
+        color: white;
+      }
+      
       /* Responsive layout - makes a 1 column-layout instead of 2 columns */
 @media screen and (max-width: 800px) {
     .column {
@@ -480,27 +508,6 @@ header .menu{
       flex: 100%;
       max-width: 100%;
     }
-  }
-  .learn {
-    background-color: #FFFF;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  .learn {
-    background-color: white;
-    color: black;
-    border: 2px solid #000000;
-  }
-  .learn:hover {
-    background-color: #000000;
-    color: white;
   }
 
 
@@ -532,12 +539,34 @@ header .menu{
     top: 50%;
     transform: translateY(-50%);
   }
-  .carousel-slide{
-    background-color: #fff;
-    padding: 50px;
 
+  .carouselbg{
+    background-color: #FFFF;
+    padding: 50px;
   }
 
+  .btn-primary {
+    background-color: #FFFF;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background-color: white;
+    color: #183127;
+    border: 2px solid #183127;
+  }
+  .btn-primary:hover {
+    background-color: #183127;
+    color: white;
+    border: #183127;
+  }
   @media (min-width: 768px) {
     .card img {
       height: 11em;
